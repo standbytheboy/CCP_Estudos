@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+@font-face {
+    font-family: "luquinhas";
+    src: url(font/Sedgwick_Ave/SedgwickAve-Regular.ttf);
+}
+* {
+    border: none;
+    font-style: oblique 50deg; /* o "50deg" é a angulação do texto, que vai de -90 até 90 */
+    font-size: 10px;
+    padding: 0%;
+}
+
+body {
+    background-color: #7700ff85;
+    background-image: url(img/killua.webp);
+    background-size: 100%;
+    background-repeat: no-repeat; /* faz com que a imagem de fundo não se repita */ 
+    background-position-y: center;
+}
+
+.title {
+    text-align: center;
+    font-family: "Pirata One", system-ui;
+    color: rgba(0, 179, 250, 0.842);
+    background-color: #751fd8;
+    font-size: 50px;
+    text-shadow: #000000 3px 3px 10px, rgb(22, 0, 82) 2px 2px 10px; /* o último pixel funciona para desfoque */
+    letter-spacing: 0.02em; /* serve para espaçar as letras */
+}
+
+.text {
+    font-family: "luquinhas";
+    border: initial;
+    /* usamos essa borda para definir o valor inicial, que é igual à "none" */
+    color: #751fd8;
+    background-color: #1f85d8;
+}
+
+#text2 {
+    font-family: "luquinhas";
+    border: inherit;
+    /* essa borda herda a propriedade do pai, que nesse caso é o body, o qual não tem borda definida */
+    color: hsl(50, 100%, 50%);
+    /* hsl: h = tonalidade; s = saturação; l = luminosidade */
+    background-color: hsla(210, 100%, 50%, 0.8);
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 2em; /* serve para espaçar as linhas do código */
+    margin: 30px 80px;
+}
+
+#text2 em{
+    text-decoration: underline wavy;
+    font-size: 1em;
+}
+
+.container{
+    font-size: 2em;
+    text-transform: lowercase; /* faz alterações mas não sobrepõe a propriedade small-caps */
+    text-align: center;
+}
+
+p { 
+    font-family: "luquinhas";
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+    border: 3px dashed #1f85d8;
+    /* -------------------- já o border UNSET volta ao seu valor natural/inicial -------------------- */
+    font-size: 2em;
+    padding: 30px;
+}
+
+p strong {
+    font-family: "luquinhas";
+    border: 1px solid black;
+    font-size: 1em;
+}
+
+.last-text{
+    text-indent: 1em; /* faz o espaçamento/indentação/tabulação do texto */
+    font-variant: small-caps; /* a propriedade "font variant" define o texto, sendo todo maiúsculo ou não */
+    word-spacing: 2em; /* é usado para espaçar palavras */
+}
