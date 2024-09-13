@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: linear-gradient(to right, rgb(107, 151, 209), rgb(105, 55, 221));
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: column-reverse wrap-reverse;
+}
+
+.item {
+    background-color: plum;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 10px;
+}
+
+.item1 {
+    width: 100px;
+    height: 100px;
+}
+
+.item2 {
+    width: 150px;
+    height: 50px;
+}
+
+.item3 {
+    width: 200px;
+    height: 100px;
+}

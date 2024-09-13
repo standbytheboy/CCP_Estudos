@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.div_pai{
+    background-color: black;
+    width: 250px;
+    height: 2500px;
+    position: relative; 
+}
+
+.caixa_laranja{
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 50px;
+}
+
+.caixa_azul{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.sticky{
+    background-color: rgb(124, 12, 216);
+    position: sticky;
+    top: 0;
+    padding: 15px;
+    color: white;
+}

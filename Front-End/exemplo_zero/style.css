@@ -48,6 +48,7 @@ body {
     font-size: 1em;
     line-height: 2em; /* serve para espaçar as linhas do código */
     margin: 30px 80px;
+    border-radius: 0.5em;
 }
 
 #text2 em{

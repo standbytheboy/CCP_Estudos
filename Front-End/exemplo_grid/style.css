@@ -1,0 +1,13 @@
+div {
+    background-color:rgb(125, 125, 255);
+}
+
+.container {
+    background-color: rgb(80, 80, 255);
+    width: 50%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr 2fr;
+    gap: 10% 2%;
+}
